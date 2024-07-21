@@ -5,7 +5,6 @@ import styled from "styled-components";
 const Button = React.forwardRef(({ className, ...props }, ref) => (
   <ButtonStyled ref={ref} className={className} {...props} />
 ));
-Button.displayName = "Button";
 
 Button.propTypes = {
   className: PropTypes.string,
