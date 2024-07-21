@@ -14,7 +14,9 @@ const ProductCard = ({ imageSrc, title, description, price, onAddToCart }) => {
         <Price>{price}원</Price>
       </CardContent>
       <CardFooter>
-        <Button onClick={onAddToCart}>담기</Button>
+        <Button size="sm" color="black" onClick={onAddToCart}>
+          담기
+        </Button>
       </CardFooter>
     </Card>
   );
